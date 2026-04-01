@@ -1,0 +1,83 @@
+# ITIL 4 / ITSM / ITOM 학습 자료
+
+회사의 ITIL, ITSM, ITOM 도입을 위한 체계적인 학습 자료 모음입니다.
+
+## 학습 추천 순서
+
+1. **ITIL 4** - IT 서비스 관리의 기본 프레임워크 이해
+2. **ITSM** - IT 서비스 관리의 실무 적용
+3. **ITOM** - IT 운영 관리의 기술적 역량
+
+---
+
+## 목차
+
+### ITIL 4 (IT Infrastructure Library)
+
+| 순서 | 문서 | 내용 |
+|------|------|------|
+| 1 | [ITIL 4 개요](docs/itil4/01-overview.md) | ITIL 역사, v3 vs v4 차이, 핵심 용어 |
+| 2 | [7대 지도 원칙](docs/itil4/02-guiding-principles.md) | 가치 집중, 반복적 진행, 협업, 최적화 등 |
+| 3 | [서비스 가치 시스템 (SVS)](docs/itil4/03-svs.md) | SVS 구조, 거버넌스, 지속적 개선 |
+| 4 | [서비스 가치 사슬](docs/itil4/04-service-value-chain.md) | Plan, Engage, Design, Obtain, Deliver, Improve |
+| 5 | [4가지 차원](docs/itil4/05-four-dimensions.md) | 조직/사람, 정보/기술, 파트너, 가치흐름 |
+| 6 | [일반 관리 프랙티스](docs/itil4/06-practices-general.md) | 14개 General Management Practices |
+| 7 | [서비스 관리 프랙티스](docs/itil4/07-practices-service.md) | 17개 Service Management Practices |
+| 8 | [기술 관리 프랙티스](docs/itil4/08-practices-technical.md) | 3개 Technical Management Practices |
+| 9 | [핵심 프로세스 심화](docs/itil4/09-key-processes.md) | 인시던트, 문제, 변경, 서비스 요청 관리 |
+| 10 | [인증 체계](docs/itil4/10-certification.md) | Foundation, MP, SL, Master 경로 |
+
+### ITSM (IT Service Management)
+
+| 순서 | 문서 | 내용 |
+|------|------|------|
+| 1 | [ITSM 개요](docs/itsm/01-overview.md) | ITSM 정의, 프레임워크, 비즈니스 가치 |
+| 2 | [ITSM vs ITIL 비교](docs/itsm/02-itsm-vs-itil.md) | 개념 차이, 상호보완적 관계 |
+| 3 | [핵심 프로세스](docs/itsm/03-key-processes.md) | 서비스 데스크, SLA, CMDB, 자산 관리 |
+| 4 | [도구 비교](docs/itsm/04-tools-comparison.md) | ServiceNow, Jira SM, BMC, Freshservice 등 |
+| 5 | [KPI 및 메트릭](docs/itsm/05-kpi-metrics.md) | MTTR, FCR, SLA 준수율, CSAT |
+| 6 | [모범 사례](docs/itsm/06-best-practices.md) | 도입 전략, 성숙도 모델, 자동화 |
+
+### ITOM (IT Operations Management)
+
+| 순서 | 문서 | 내용 |
+|------|------|------|
+| 1 | [ITOM 개요](docs/itom/01-overview.md) | ITOM 정의, 3대 핵심 기능, 비즈니스 가치 |
+| 2 | [ITOM vs ITSM 비교](docs/itom/02-itom-vs-itsm.md) | 차이점, 통합 시너지 |
+| 3 | [핵심 역량](docs/itom/03-capabilities.md) | 이벤트, 모니터링, 디스커버리, 서비스 매핑, 클라우드 |
+| 4 | [도구 비교](docs/itom/04-tools-comparison.md) | ServiceNow ITOM, Datadog, Splunk, Nagios 등 |
+| 5 | [AIOps 트렌드](docs/itom/05-aiops-trends.md) | AIOps, 예측 분석, 자율 운영 |
+
+### 참고 자료
+
+| 문서 | 내용 |
+|------|------|
+| [참고 자료 모음](docs/references/sources.md) | 공식 문서, 서적, 온라인 강의, 커뮤니티 링크 |
+
+---
+
+## 핵심 개념 요약
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    ITIL 4 Framework                      │
+│              (IT 서비스 관리 모범 사례)                    │
+├─────────────────────────┬───────────────────────────────┤
+│         ITSM            │           ITOM                │
+│   (서비스 전달/관리)      │     (인프라/운영 관리)          │
+│                         │                               │
+│  - 인시던트 관리          │  - 이벤트 관리                 │
+│  - 문제 관리             │  - 모니터링                    │
+│  - 변경 관리             │  - 디스커버리                  │
+│  - 서비스 요청           │  - 서비스 매핑                 │
+│  - SLA 관리             │  - 클라우드 관리               │
+│  - 서비스 데스크          │  - AIOps                     │
+│                         │                               │
+│  "프론트 오브 하우스"      │  "비하인드 더 씬"              │
+│  (사용자 대면)            │  (백엔드 운영)                 │
+└─────────────────────────┴───────────────────────────────┘
+```
+
+---
+
+> 이 자료는 2026년 4월 기준으로 작성되었습니다.
