@@ -19,7 +19,7 @@ ITIL은 조직이 IT 서비스를 통해 비즈니스 가치를 창출하고 전
 | 항목 | 설명 |
 |------|------|
 | 정식 명칭 | Information Technology Infrastructure Library |
-| 최신 버전 | ITIL 4 (2019년 출시) |
+| 최신 버전 | ITIL 5 (2026년 출시), ITIL 4 (2019년 출시) |
 | 관리 기관 | PeopleCert (구 AXELOS) |
 | 적용 분야 | IT 서비스 관리 (IT Service Management) |
 | 특징 | 프레임워크 (Framework), 표준이 아닌 가이드라인 |
@@ -37,6 +37,7 @@ ITIL은 약 30년에 걸쳐 지속적으로 발전해왔다.
 | ITIL v3 | 2007 | 5권으로 재구성, 서비스 생명주기(Service Lifecycle) 도입 |
 | ITIL 2011 Edition | 2011 | v3의 개정판, 프로세스 명확화 및 오류 수정 |
 | ITIL 4 | 2019 | 서비스 가치 시스템(SVS) 도입, Agile/DevOps/Lean 통합 |
+| ITIL 5 | 2026 | 제품 및 서비스 라이프사이클(PSLM) 도입, AI 거버넌스, 경험 관리 |
 
 ### ITIL v3의 5단계 서비스 생명주기
 
@@ -115,6 +116,8 @@ ITIL 4는 다음과 같은 목표를 추구한다.
 - [ITIL 4 7대 지도 원칙](./02-guiding-principles.md)
 - [서비스 가치 시스템 (SVS)](./03-svs.md)
 - [ITIL 4 인증 체계](./10-certification.md)
+- [ITIL 5 개요](../itil5/01-overview.md)
+- [ITIL 4 vs ITIL 5 종합 비교](../itil4-vs-itil5/01-comprehensive-comparison.md)
 
 ---
 
