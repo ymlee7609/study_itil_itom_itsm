@@ -1,13 +1,15 @@
-# ITIL 4 / ITSM / ITOM / ITAM 학습 자료
+# ITIL 4/5 / ITSM / ITOM / ITAM 학습 자료
 
-회사의 ITIL, ITSM, ITOM, ITAM 도입을 위한 체계적인 학습 자료 모음입니다.
+회사의 ITIL, ITSM, ITOM, ITAM 도입을 위한 체계적인 학습 자료 모음입니다. 2026년 2월 출시된 **ITIL 5 (디지털 제품 및 서비스 관리)** 내용도 포함합니다.
 
 ## 학습 추천 순서
 
 1. **ITIL 4** - IT 서비스 관리의 기본 프레임워크 이해
-2. **ITSM** - IT 서비스 관리의 실무 적용
-3. **ITOM** - IT 운영 관리의 기술적 역량
-4. **ITAM** - IT 자산의 전체 생애주기 관리
+2. **ITIL 5** - 디지털 제품 중심 + AI 거버넌스 + 경험 관리로의 진화
+3. **ITIL 4 vs ITIL 5** - 두 버전의 차이와 전환 전략
+4. **ITSM** - IT 서비스 관리의 실무 적용
+5. **ITOM** - IT 운영 관리의 기술적 역량
+6. **ITAM** - IT 자산의 전체 생애주기 관리
 
 ---
 
@@ -27,6 +29,23 @@
 | 8 | [기술 관리 프랙티스](docs/itil4/08-practices-technical.md) | 3개 Technical Management Practices |
 | 9 | [핵심 프로세스 심화](docs/itil4/09-key-processes.md) | 인시던트, 문제, 변경, 서비스 요청 관리 |
 | 10 | [인증 체계](docs/itil4/10-certification.md) | Foundation, MP, SL, Master 경로 |
+
+### ITIL 5 (Digital Product & Service Management, 2026)
+
+| 순서 | 문서 | 내용 |
+|------|------|------|
+| 1 | [ITIL 5 개요](docs/itil5/01-overview.md) | ITIL 5란, 출시 배경, 핵심 변화, 신규 용어 |
+| 2 | [제품 및 서비스 라이프사이클 (PSLM)](docs/itil5/02-product-service-lifecycle.md) | 8개 활동, SVC → PSLM 전환, 제품 중심 접근 |
+| 3 | [AI 거버넌스와 6C 모델](docs/itil5/03-ai-governance.md) | Context, Capability, Confidence, Control, Collaboration, Continuity |
+| 4 | [ITIL 5에서 유지되는 것들](docs/itil5/04-practices-continuity.md) | 34개 프랙티스, 7대 원칙, 4가지 차원의 연속성 |
+| 5 | [거버넌스 변화와 경험 관리](docs/itil5/05-governance-experience.md) | 작업 위→곁, XLA, 서비스 관계 모델 |
+| 6 | [ITIL 5 인증 체계](docs/itil5/06-certification.md) | 신규 자격 경로, ITIL 4 → 5 전환 가이드 |
+
+### ITIL 4 vs ITIL 5 비교
+
+| 문서 | 내용 |
+|------|------|
+| [종합 비교](docs/itil4-vs-itil5/01-comprehensive-comparison.md) | 프레임워크/모델/거버넌스/AI/인증/실무/전환 전략 8개 관점 비교 |
 
 ### ITSM (IT Service Management)
 
@@ -69,8 +88,9 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│                         ITIL 4 Framework                             │
-│                   (IT 서비스 관리 모범 사례)                            │
+│                   ITIL 4 (2019) → ITIL 5 (2026)                      │
+│          IT 서비스 관리 → 디지털 제품 및 서비스 관리 (DPSM)              │
+│             + AI 거버넌스 (6C) + 경험 관리 (XLA)                       │
 ├──────────────────┬──────────────────┬────────────────────────────────┤
 │      ITSM        │      ITOM        │            ITAM               │
 │ (서비스 전달/관리) │ (인프라/운영 관리) │      (IT 자산 관리)            │
@@ -90,4 +110,4 @@
 
 ---
 
-> 이 자료는 2026년 4월 기준으로 작성되었습니다.
+> 이 자료는 2026년 4월 기준으로 작성되었으며, ITIL 5 (2026년 2월 출시) 내용을 포함합니다.
