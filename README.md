@@ -76,6 +76,14 @@
 | 2 | [ITAM vs ITSM vs ITOM 비교](docs/itam/02-itam-vs-itsm-itom.md) | 차이점 비교, 관계도, 실무 시나리오, 조직 설명 가이드 |
 | 3 | [도입 사례 및 ROI](docs/itam/03-case-studies.md) | 칼스버그, BBC 등 글로벌/국내 사례, ROI 데이터, 도입 가이드 |
 
+### 핵심 개념 (Key Concepts)
+
+자주 혼동되거나 실무에서 특히 중요한 개념을 모아놓은 디렉토리.
+
+| 문서 | 내용 |
+|------|------|
+| [Output vs Outcome](docs/key_concept/output_vs_outcome.md) | 산출물 vs 결과의 차이, SLA/XLA의 뿌리, 서비스 가치 공식 |
+
 ### 참고 자료
 
 | 문서 | 내용 |
