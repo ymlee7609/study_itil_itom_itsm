@@ -1,15 +1,16 @@
-# ITIL 4/5 / ITSM / ITOM / ITAM 학습 자료
+# ITIL 4/5 / COBIT / ITSM / ITOM / ITAM 학습 자료
 
-회사의 ITIL, ITSM, ITOM, ITAM 도입을 위한 체계적인 학습 자료 모음입니다. 2026년 2월 출시된 **ITIL 5 (디지털 제품 및 서비스 관리)** 내용도 포함합니다.
+회사의 ITIL, COBIT, ITSM, ITOM, ITAM 도입을 위한 체계적인 학습 자료 모음입니다. 2026년 2월 출시된 **ITIL 5 (디지털 제품 및 서비스 관리)**와 **COBIT 2019 (엔터프라이즈 IT 거버넌스)** 내용을 포함합니다.
 
 ## 학습 추천 순서
 
 1. **ITIL 4** - IT 서비스 관리의 기본 프레임워크 이해
 2. **ITIL 5** - 디지털 제품 중심 + AI 거버넌스 + 경험 관리로의 진화
 3. **ITIL 4 vs ITIL 5** - 두 버전의 차이와 전환 전략
-4. **ITSM** - IT 서비스 관리의 실무 적용
-5. **ITOM** - IT 운영 관리의 기술적 역량
-6. **ITAM** - IT 자산의 전체 생애주기 관리
+4. **COBIT 2019** - 엔터프라이즈 IT 거버넌스 프레임워크 (감사·규제·리스크 관리의 기준)
+5. **ITSM** - IT 서비스 관리의 실무 적용
+6. **ITOM** - IT 운영 관리의 기술적 역량
+7. **ITAM** - IT 자산의 전체 생애주기 관리
 
 ---
 
@@ -46,6 +47,20 @@
 | 문서 | 내용 |
 |------|------|
 | [종합 비교](docs/itil4-vs-itil5/01-comprehensive-comparison.md) | 프레임워크/모델/거버넌스/AI/인증/실무/전환 전략 8개 관점 비교 |
+
+### COBIT 2019 (Control Objectives for Information and Related Technologies)
+
+ISACA의 **엔터프라이즈 IT 거버넌스 프레임워크**. ITIL이 "어떻게 운영하나(Management)"라면 COBIT은 **"무엇을 감독하나(Governance)"**에 특화됩니다.
+
+| 순서 | 문서 | 내용 |
+|------|------|------|
+| 1 | [COBIT 개요](docs/cobit/01-overview.md) | 역사, COBIT 2019 특징, 6개 거버넌스 원칙, 적용 대상 |
+| 2 | [거버넌스 vs 관리](docs/cobit/02-governance-vs-management.md) | EDM vs APO/BAI/DSS/MEA, 이사회 수준 vs 관리자 수준 |
+| 3 | [프레임워크 구조](docs/cobit/03-framework-structure.md) | 5 도메인·40 목표 전체 상세 (EDM·APO·BAI·DSS·MEA) |
+| 4 | [Design Factors](docs/cobit/04-design-factors.md) | 11개 설계 요소, 조직별 맞춤화, Focus Areas |
+| 5 | [Performance Management (CPM)](docs/cobit/05-performance-management.md) | Capability Level 0~5, Maturity Level, 측정 실무 |
+| 6 | [ITIL vs COBIT 비교](docs/cobit/06-itil-vs-cobit.md) | 관점·영역·결합 모델·용어 대응·오해와 진실 |
+| 7 | [도입 가이드](docs/cobit/07-implementation.md) | 7단계 도입 모델, 3년 로드맵, 첫 6개월 체크리스트 |
 
 ### ITSM (IT Service Management)
 
@@ -131,6 +146,9 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
+│  COBIT 2019 — Enterprise IT Governance (EDM: 이사회 감독)              │
+│  Evaluate · Direct · Monitor (평가·지시·감독, 40 목표·11 Design Factors) │
+├──────────────────────────────────────────────────────────────────────┤
 │                   ITIL 4 (2019) → ITIL 5 (2026)                      │
 │          IT 서비스 관리 → 디지털 제품 및 서비스 관리 (DPSM)              │
 │             + AI 거버넌스 (6C) + 경험 관리 (XLA)                       │
