@@ -87,6 +87,7 @@
 | [Output vs Outcome](docs/key_concept/output_vs_outcome.md) | 산출물 vs 결과, SLA/XLA의 뿌리 |
 | [Incident vs Problem vs Known Error](docs/key_concept/incident_vs_problem_vs_known_error.md) | 증상 vs 원인 vs 원인+임시조치 |
 | [Change vs Release vs Deployment](docs/key_concept/change_vs_release_vs_deployment.md) | 결정 vs 패키징 vs 실행 |
+| [Gate vs Guardrail](docs/key_concept/gate_vs_guardrail.md) | 사전 승인 vs 자동 경계 (ITIL 5 / DevOps) |
 | [Utility vs Warranty](docs/key_concept/utility_vs_warranty.md) | Fit for Purpose vs Fit for Use |
 | [SLA vs OLA vs UC vs XLA](docs/key_concept/sla_vs_ola_vs_uc_vs_xla.md) | 대외/내부/외주/경험 4층위 |
 | [CI vs Asset](docs/key_concept/ci_vs_asset.md) | 서비스 관점 vs 재무 관점 |
