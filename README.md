@@ -78,11 +78,45 @@
 
 ### 핵심 개념 (Key Concepts)
 
-자주 혼동되거나 실무에서 특히 중요한 개념을 모아놓은 디렉토리.
+자주 혼동되지만 실무·감사·시험에서 명확히 구분해야 하는 **22개 용어쌍** 모음. 상세 가이드는 [key_concept/README.md](docs/key_concept/README.md) 참고.
 
-| 문서 | 내용 |
-|------|------|
-| [Output vs Outcome](docs/key_concept/output_vs_outcome.md) | 산출물 vs 결과의 차이, SLA/XLA의 뿌리, 서비스 가치 공식 |
+#### P1 — 실무 최빈 혼동 (반드시 숙지)
+
+| 문서 | 핵심 포인트 |
+|------|-----------|
+| [Output vs Outcome](docs/key_concept/output_vs_outcome.md) | 산출물 vs 결과, SLA/XLA의 뿌리 |
+| [Incident vs Problem vs Known Error](docs/key_concept/incident_vs_problem_vs_known_error.md) | 증상 vs 원인 vs 원인+임시조치 |
+| [Change vs Release vs Deployment](docs/key_concept/change_vs_release_vs_deployment.md) | 결정 vs 패키징 vs 실행 |
+| [Utility vs Warranty](docs/key_concept/utility_vs_warranty.md) | Fit for Purpose vs Fit for Use |
+| [SLA vs OLA vs UC vs XLA](docs/key_concept/sla_vs_ola_vs_uc_vs_xla.md) | 대외/내부/외주/경험 4층위 |
+| [CI vs Asset](docs/key_concept/ci_vs_asset.md) | 서비스 관점 vs 재무 관점 |
+| [Event vs Alert vs Incident](docs/key_concept/event_vs_alert_vs_incident.md) | ITOM → ITSM 감지 체인 |
+| [Process vs Practice vs Function](docs/key_concept/process_vs_practice_vs_function.md) | v3→v4 용어 변화 |
+| [Service Request vs Incident](docs/key_concept/service_request_vs_incident.md) | 정상 요청 vs 비정상 중단 |
+| [Value vs Cost vs Risk](docs/key_concept/value_vs_cost_vs_risk.md) | 가치 공식 3요소 |
+
+#### P2 — 개념 심화·인증 대비
+
+| 문서 | 핵심 포인트 |
+|------|-----------|
+| [Customer vs User vs Sponsor](docs/key_concept/customer_vs_user_vs_sponsor.md) | 결정자·계약자·사용자 3역할 |
+| [Workaround vs Fix vs Resolution](docs/key_concept/workaround_vs_fix_vs_resolution.md) | 임시 vs 증상 vs 근본 |
+| [MTBF vs MTTR vs MTTF](docs/key_concept/mtbf_vs_mttr_vs_mttf.md) | 장애 지표 4형제 |
+| [KPI vs Metric vs CSF](docs/key_concept/kpi_vs_metric_vs_csf.md) | CSF→KPI→Metric→Measurement |
+| [Governance vs Management](docs/key_concept/governance_vs_management.md) | EDM 감독 vs Plan·Run 실행 |
+| [Effectiveness vs Efficiency](docs/key_concept/effectiveness_vs_efficiency.md) | 효과성 > 효율성 > 경제성 (3E) |
+| [Availability vs Reliability vs Maintainability](docs/key_concept/availability_vs_reliability_vs_maintainability.md) | 가용성 4요소 공식 |
+| [RTO vs RPO vs MTD](docs/key_concept/rto_vs_rpo_vs_mtd.md) | BCM/DR 4대 시간 지표 |
+| [Service vs Product vs Service Offering](docs/key_concept/service_vs_product_vs_offering.md) | ITIL 5 PSLM 축 |
+| [CMDB vs CMS vs Asset Registry](docs/key_concept/cmdb_vs_cms.md) | CMS ⊃ CMDB, Asset 별도 |
+
+#### P3 — 보충 지식
+
+| 문서 | 핵심 포인트 |
+|------|-----------|
+| [Capacity vs Performance vs Demand](docs/key_concept/capacity_vs_performance_vs_demand.md) | 공급 vs 체감 vs 요구 |
+| [Policy vs Standard vs Procedure](docs/key_concept/policy_vs_standard_vs_procedure.md) | 문서 4단 계층 |
+| [Continual vs Continuous Improvement](docs/key_concept/continual_vs_continuous_improvement.md) | 철자 차이, ITIL 공식 용어 |
 
 ### 참고 자료
 
